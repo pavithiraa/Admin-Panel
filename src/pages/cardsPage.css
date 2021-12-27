@@ -1,0 +1,29 @@
+.cardsPage{
+    background:#f8f9fc;
+    /* background-color: aqua; */
+}
+.card-header{
+    color:#333;
+    font-weight: 400;
+}
+.dropIcon{
+    margin-left: 350px;
+}
+@media screen and (max-width:700px){
+    .dropIcon{
+        margin-left: 100px;
+    }
+}
+.card{
+    margin:20px auto;
+}
+#default{
+    color:#333;
+    font-weight: 500;
+}
+#dropHead{
+    color: rgba(77, 87, 133, 0.219);
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 800;
+}

@@ -1,0 +1,52 @@
+.buttonDiv{
+    background:#f8f9fc;
+}
+h3{
+    color:#5a5c69;
+}
+.card-header{
+    font-weight: 800;
+    color:#4e73df;
+    background: #f8f9fc;
+}
+.btnCircle{
+    
+    border-radius: 100%;
+   
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnCircle i{
+    color:white;
+    padding:3px;
+}
+.card{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+li{
+    text-align: left;
+}
+.btn-icon-split{
+    position:relative;
+    margin:15px;
+    display:block;
+    width:220px;
+}
+.text{
+    left:50;
+}
+.btn-icon-split .icon{
+    position: absolute;
+    background: rgba(0,0,0,.15);
+    left:-6px;
+    top:0;
+    /* display: inline-block; */
+    padding: .375rem .75rem;
+
+}
+.card-body p {
+    color:#858796;
+    text-indent:20px;
+}

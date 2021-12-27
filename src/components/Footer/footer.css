@@ -1,0 +1,12 @@
+.foot{
+    background:white;
+    box-shadow: 1px 3px 10px rgb(216, 213, 213);
+    padding: 2rem 0;
+    /* flex-shrink: 0; */
+    height:80px;
+}
+.foot p{
+    text-align: center;
+    font-size: 12px;
+    padding:10px;
+}

@@ -1,0 +1,102 @@
+.dashboard{
+    /* grid-area:main; */
+   /* height:100%; */
+    /* width:100%; */
+    padding:20px;
+    align-items: center;
+    background:#f8f9fc;
+    color:#5a5c69;
+    overflow-x: hidden;
+}
+.cardContainer{
+    position:relative;
+    margin:15px;
+    flex: 1 1 auto;
+    min-height: 1px;
+    /* padding: 1.25rem; */
+    /* border-left: .25rem solid #4e73df!important; */
+    background: white;
+    align-items: left;
+    /* width:200px; */
+    /* justify-content: space-between; */
+    /* border:1px solid grey; */
+    box-shadow: 1px 3px 10px rgb(216, 213, 213);
+    display:flex;
+    border-radius:5px;
+    width:250px;
+    /* padding: 0px 20px; */
+}
+@media screen and (max-width:700px){
+    .cardContainer{
+        width: 200px;
+    }
+}
+.card-heading{
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    
+}
+
+.cardContent,.cardIcon{
+    align-items: center;
+    padding:15px;  
+}
+.cardIcon{
+    /* color:rgba(255, 255, 255, 0.4); */
+    color:#dae0e5;
+    float:right;
+    position:absolute;
+    top:12px;
+    right:10px;
+}
+.amount{
+    /* display:flex; */
+    font-weight: 700;
+    position:relative;
+   
+}
+.Progress{
+    /* position:absolute;
+    left:50px;
+    bottom:30px; */
+    width:100px;
+    height:7px;
+}
+.chart-heading{
+    color:#4e73df;
+    font-weight: 700;
+    /* background: #f8f9fc; */
+}
+.progressBar{
+    width:500px;
+    height:15px;
+    margin: auto 15px;
+}
+#donut{
+  position:relative;
+}
+.donut{
+    position:absolute;
+    top:40px;
+    left:100px;
+}
+
+.Buttoncard{
+  
+  
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   
+    width:250px;
+    padding:0.5rem;
+    border-radius:5px;
+    margin:20px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+  
+  .Buttoncard p{
+    margin-top:0px;
+    color:rgba(255,255,255,.4);
+  }
+  

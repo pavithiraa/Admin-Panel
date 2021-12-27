@@ -1,0 +1,10 @@
+.borderPage{
+    background: #f8f9fc ;
+}
+#Bcom{
+  border-radius: 4px;
+    padding: 2.25rem;
+    color:#858796;
+    /* margin:5px ;  */
+
+}

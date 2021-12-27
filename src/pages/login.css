@@ -1,0 +1,79 @@
+.login{
+    background-color: #4e73df;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* margin:auto; */
+    display:flex;
+    /* height:400px; */
+}
+
+#img{
+    width:500px;
+    height:700px;
+}
+@media screen and (max-width:700px){
+   #img{
+        display:none;
+    }
+}
+.form{
+    /* margin: 25px; */
+    height:500px;
+   
+}
+.loginRow{
+    display:flex;
+    /* margin:100px; */
+   
+    /* position:relative; */
+}
+.textCenter{
+ text-align: center;
+}
+.formControl{
+    border-radius: 30px;
+    height:50px;
+    width:350px;
+    margin:20px ;
+    text-align: center;
+}
+.checkBox{
+    margin-left: -13.25rem;
+}
+.formCheck{
+    margin:25px;
+}
+.buttons{
+    width:350px;
+    display:block;
+    height:50px;
+    margin-left:30px;
+    padding:10px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:white;
+}
+.divider{
+    margin : 2rem 2rem;
+}
+#dark{
+    background:'#3b5998';
+}
+.btnIcon{
+    color:white;
+    padding:5px;
+}
+.nextPg{
+    /* text-align: center; */
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0.35rem 8rem;
+    display:block;
+    align-items: center;
+    text-align: center;
+    /* background-color: rgb(37, 94, 145); */
+}
+/* .imgDiv{
+    position:absolute;
+    top:0;
+    left:0;
+} */

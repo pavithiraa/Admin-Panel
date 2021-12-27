@@ -1,0 +1,64 @@
+.editForm{
+    margin:20px;
+    border:2px solid grey;
+    align-items: center;
+    border-radius: 15px;
+    background: #CDF0EA;
+    box-shadow: 2px 2px 5px #476072;
+    
+}
+.addUserDiv{
+     margin: 10px;
+      width:400px;
+      align-items: center;
+      background:rgb(231, 229, 229);
+      border:1px solid grey;
+      border-radius:15px ;
+      box-shadow: 1px 1px 3px 1px #476072;
+}
+.crudIcons{
+  text-decoration: none;
+  float:right;
+}
+.deleteIcon{
+    color:red;
+    padding:2px;
+}
+.usersImage{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position:absolute;
+    top:40;
+    left:10;
+}
+.lastCreated{
+    color:rgb(218, 210, 210);
+    font-size:12px;
+}
+.userCard{
+    width:300px;
+}
+#lastSeen{
+    color:lightgray;
+    font-size: 12px;
+}
+.userCardBody{
+    display:flex;
+    position: relative;
+}
+#usersDiv{
+    background:#f6f8fc;
+}
+.userContent{
+  margin-left: 50px;
+}
+.clearIcon{
+    float:right;
+}
+#submitButton{
+    margin:40px;
+    display:block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

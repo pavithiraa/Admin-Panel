@@ -1,0 +1,86 @@
+.Navbar{
+    /* background-color: aliceblue; */
+    width:85vw;
+   
+    /* padding:10px; */
+    box-shadow: 2px 2px 8px rgb(216, 213, 213);
+    grid-area:main;
+    /* overflow-y: auto; */
+}
+.listItm{
+    margin-top:5px;
+    float:right;
+}
+@media screen and (max-width:700px){
+    .listItm{
+        margin-top: -25px;
+    }
+}
+.userDropItem{
+    color:#858796;
+    font-weight: 400;
+    font-size: 14px;
+}
+main{
+    height:70px;
+}
+input{
+    width:400px;
+}
+@media screen and (max-width:700px){
+    input{
+        width:150px;
+    }
+}
+ul{
+    list-style-type: none;
+    /* padding-left:100px; */
+    /* width:100%; */
+}
+.icons {
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    /* background:grey; */
+    /* border-radius:50%; */
+    height:50px;
+    width:50px;
+    /* margin-top:50px;
+    margin-left:50px; */
+  }
+  .badge{
+    position:absolute;
+    /* display:flex; */
+    top:5px;
+    right:5px;
+    width:20px;
+    height:20px;
+    align-items: center;
+    justify-content: center;
+  }
+  i{
+      color:lightgrey;
+  }
+  #lastBatch{
+    border-right: 1px solid rgb(175, 172, 172);
+    margin-top: 1.2rem;
+    height:1rem;
+  }
+  .img-profile{
+      width:30px;
+      height:30px;
+      border-radius: 50%;
+  }
+  .userInfo{
+    margin-left: 20px;
+    color: rgba(126, 122, 122, 0.4);
+  }
+ .userDropDown{
+    /* margin:100px; */
+    border-radius:5px;
+    background:rgb(158, 153, 153);
+    color:black;
+    width:200px;
+    float:right;
+ }
